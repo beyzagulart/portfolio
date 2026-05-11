@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>:) | Beyzagül</title>
+    <style>
+        body {
+            background-color: #ffe6f2; /* Başka bir tatlı pastel pembe */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        .smiley {
+            font-size: 150px; /* Kocaman bir gülücük */
+            color: #4a1d4a;
+            font-weight: bold;
+        }
+        .back-button {
+            margin-top: 20px;
+            text-decoration: none;
+            color: #4a1d4a;
+            font-weight: bold;
+            border-bottom: 2px solid #4a1d4a;
+        }
+    </style>
+</head>
+<body>
+    <div class="smiley">:)</div>
+    <a href="index.html" class="back-button">Geri Dön</a>
+</body>
+</html>
