@@ -5,7 +5,7 @@
     <title>:) | Beyzagül</title>
     <style>
         body {
-            background-color: #8BDFDD; /* Başka bir tatlı pastel pembe */
+            background-color: #8BDFDD; /* Turkuaz tonu (Kodda pembe yazıyor ama bu renk turkuaz balım, bilgin olsun) */
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -15,7 +15,7 @@
             font-family: sans-serif;
         }
         .smiley {
-            font-size: 150px; /* Kocaman bir gülücük */
+            font-size: 150px; 
             color: #4a1d4a;
             font-weight: bold;
         }
@@ -26,10 +26,29 @@
             font-weight: bold;
             border-bottom: 2px solid #4a1d4a;
         }
+
+        /* Gizli Buton Stili (Artık doğru yerde, style içinde) */
+        .secret-spot {
+            position: fixed;
+            bottom: 10px; 
+            right: 10px;
+            width: 30px; 
+            height: 30px;
+            background-color: transparent; 
+            cursor: help; 
+            border: none;
+            text-decoration: none;
+        }
+        .secret-spot:hover {
+            background-color: rgba(255, 179, 217, 0.3); 
+            border-radius: 50%;
+        }
     </style>
 </head>
 <body>
     <div class="smiley">:)</div>
     <a href="index.html" class="back-button">Geri Gidenzi</a>
+
+    <a href="secret.html" class="secret-spot" title="Bu da ne?"></a>
 </body>
 </html>
